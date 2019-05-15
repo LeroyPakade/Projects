@@ -5,12 +5,12 @@ VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageAPI", "MessageAPI\MessageAPI.csproj", "{6B4DE10E-CD69-4038-8EBF-DBFC2BAA8479}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagesUnitTess", "..\MessagesUnitTess\MessagesUnitTess.csproj", "{2BBE1FEB-56AF-48E3-B9C3-D452D1411F4F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4344328-7B74-4034-ABF7-A34F2C45F7CB}"
 	ProjectSection(SolutionItems) = preProject
 		Usp_getcustorders.sql = Usp_getcustorders.sql
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessagesUnitTess", "..\..\MessagesUnitTess\MessagesUnitTess.csproj", "{EB9306C9-6726-41CE-B542-73DBA48C7C08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{6B4DE10E-CD69-4038-8EBF-DBFC2BAA8479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4DE10E-CD69-4038-8EBF-DBFC2BAA8479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4DE10E-CD69-4038-8EBF-DBFC2BAA8479}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BBE1FEB-56AF-48E3-B9C3-D452D1411F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BBE1FEB-56AF-48E3-B9C3-D452D1411F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BBE1FEB-56AF-48E3-B9C3-D452D1411F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BBE1FEB-56AF-48E3-B9C3-D452D1411F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9306C9-6726-41CE-B542-73DBA48C7C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9306C9-6726-41CE-B542-73DBA48C7C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9306C9-6726-41CE-B542-73DBA48C7C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9306C9-6726-41CE-B542-73DBA48C7C08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
